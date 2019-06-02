@@ -14,7 +14,7 @@ class A2:
     time.sleep(5)
     driver.find_element_by_xpath("//span[text() = 'Log Out']").click()
     time.sleep(5)
-    driver.quit()
+  #  driver.quit()
 
 sh = A2()
 sh
